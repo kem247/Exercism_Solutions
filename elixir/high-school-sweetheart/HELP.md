@@ -41,7 +41,9 @@ Or, you can enable all the tests by commenting out the `ExUnit.configure` line i
 ```elixir
 # ExUnit.configure(exclude: :pending, trace: true)
 ```
-
+```elixir
+# commit 
+```
 ## Useful `mix test` options
 
 * `test/<FILE>.exs:LINENUM` - runs only a single test, the test from `<FILE>.exs` whose definition is on line `LINENUM`
